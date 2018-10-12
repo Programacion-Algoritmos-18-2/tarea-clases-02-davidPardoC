@@ -5,7 +5,7 @@
  */
 package paquete2;
 
-import ejercicio.pkg2.*;
+
 
 /**
  *

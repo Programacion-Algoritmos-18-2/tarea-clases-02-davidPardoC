@@ -10,10 +10,11 @@ package ejercicio.pkg2;
  * @author David Pardo
  */
 public class Precio {
-    double euros;
+    private double euros;
     public double obtener(){
-    return 0;
+    return euros;
     }
     public void agragar(double x){
+        euros = x;
     }
 }

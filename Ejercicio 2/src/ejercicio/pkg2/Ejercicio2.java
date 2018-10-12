@@ -17,9 +17,8 @@ public class Ejercicio2 {
     public static void main(String[] args) {
         Precio p;
         p = new Precio();
-        System.out.println(p.euros);
-        p.euros=10.1;
-        System.out.println(p.euros);
+        p.agragar(20.2);
+        System.out.println(p.obtener());
     }
     
 }
